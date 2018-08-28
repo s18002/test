@@ -1,0 +1,27 @@
+console.log("102.js loaded!");
+console.log("102.js loaded!".length);
+console.log(0.1 + 0.2);
+
+
+const input_num =
+    parseInt(prompt("0-9までの好きな数字を入力してください"));
+
+console.log(input.num);
+
+if (  isNaN(input_num)  ){
+    console.log("数値以外が入力されました。");
+} else　if (input_num < 0) {
+    console.log("数が０よりも小さいです");
+} else if (input_num > 9) {
+    console.log("数が９よりも大きいです");
+} else {
+    console.log("範囲内です");
+}
+
+if (isNaN(input_num)) {
+    console.log("数値以外です");
+} else if (input_num >= 0 && input_num <= 9) {
+    console.log("範囲内です");
+} else {
+    console.log("数値が範囲を超えています");
+}
